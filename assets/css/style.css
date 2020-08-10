@@ -23,14 +23,33 @@
   color: white;
 }
 
+
 .nav-text {
     padding: 20px;
     color: darkslategray;
 }
 
-.row{
-    background-color: #f8f9fa;
+.nav nav-pills .row .show{
+   color: #f8f9fa;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0056b3;
+}
+.dropdown-menu.show {
+    display: block;
+}
+
+a.navi-link.navi-text{
+    color: #0056b3;
+}
+
+a.dropdown-item.nav-text{
+    color: #0056b3;
+}
+
+
 
 .my-text{
     margin-top: 70px;
@@ -47,6 +66,6 @@
 
 .my-img {
     margin: 130px 20px 20px 30px;
-    max-width: 85%;
+    max-width: 85%;    
 }
 
