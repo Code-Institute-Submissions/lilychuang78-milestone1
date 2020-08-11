@@ -63,8 +63,11 @@ a.dropdown-item.nav-text{
     text-align: left;
 }
 
+div.col-md-8{
+    margin-bottom: 50px;
+}
 .my-img {
-    margin: 130px 20px 20px 0;
+    margin: 100px 20px 30px 0;
     max-width: 85%;    
 }
 
