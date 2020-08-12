@@ -3,7 +3,7 @@ https://github.com/lilychuang78/milestone1
 
 The Aim:
 This project is to build a personal protfolio website for potential recruiters.
-The website includes a navigation of home page, work experiences, skills, contact form, project (links), and download (cv link).
+The website includes a navigation of home page, work experiences, skills, contact form, project (links), and download (cv link).<br />
 <br />
 Development Tools:<br />
 Github<br />
@@ -28,17 +28,14 @@ User Design Experience:<br />
 	what they say they need: a resume website, social media profile
 	what they actually need: a responsive website with different devices, links to social media profile
 	what they don't know they need: links to the future protfolio/projects, a CV that can be downloaded
-<br />	
 >Skeleton Plane:<br />
 #put basamique here
 	#mobile
 	#desktop
-<br />
 >Strategy Plan:<br />
 	what does the user expect? information of working experience, education, and importantly skills
 	who are the users? potential recruiters or clients
 	does it offer what users want? content of web-design and programming itself, with future portfolios and contact information
-<br />
 >Structure Plane:<br />
 	The homepage leads to 'Career', 'Skills', 'Education', and 'Contact' pages and 'Download' and 'Portfolio' opens a bank window.
 	The navigation bar is always presented on the top of the screen so the users is able to navigate to other webpages.
