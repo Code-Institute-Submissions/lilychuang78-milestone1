@@ -1,98 +1,176 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-image {
+    background-image: url("/assets/image/hero.jpg");
+    background-color: #cccccc;
+    width: 100%;
+    height: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f8f9fa;
+}
 
 
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-      <title>Lily Chuang</title>
-   </head>
-   <body>
-      <div>
-         <img src="assets/image/hero.jpg" class="hero-image img-fluid" alt="Responsive image">
-         <div>
-            <h1 class="hero-text">Because Communication Matters</h1>
-            <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbar1">
-               <ul class="nav nav-pills">
-                  <li class="nav-item">
-                     <a class="nav-link nav-text" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link nav-text" href="index.html#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link nav-text" href="career.html#career">Career</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link nav-text" href="skills.html#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link nav-text" href="education.html">Education</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle nav-text" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item nav-text" target="_blank">Project A</a>
-                        <div role="separator" class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item nav-text" target="_blank">Project B</a>
-                        <div role="separator" class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item nav-text" target="_blank">Project C</a>
-                     </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle nav-text" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Download</a>
-                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item nav-text" target="_blank">Resume</a>
-                     </div>
-                  </li>
-                  <li class="nav-item ">
-                     <a class="nav-link nav-text" href="contact">Contact</a>
-                  </li>
-               </ul>
-                </div>
-            </nav>
-            <div class="col-md-8">
-               <h4 class="skill-header" id="skills">Skills</h4>
-            </div>
-            <div class="card-deck skill-section">
-               <div class="card">
-                  <img class="card-img-top three-image ai-image" src="assets/image/ai.jpg" alt="image">
-                  <!--image downloaded: https://unsplash.com/photos/zbLW0FG8XU8-->
-                  <div class="card-body">
-                     <h5 class="card-title">NLU Development</h5>
-                     <p class="card-text">Allow me to be the bridge between you and your machine. Customize the ability of your machine to understand both written and spoken human languages.</p>
-                  </div>
-               </div>
-               <div class="card card-section">
-                  <img class="card-img-top three-image" src="assets/image/webdesign.jpg" alt="image">
-                  <!--image downloaded: https://unsplash.com/photos/JVSgcV8_vb4-->
-                  <div class="card-body">
-                     <h5 class="card-title">Front End</h5>
-                     <p class="card-text">Implementing visual design and interact within a web application, including user experience design, interactive interface, website design, and other features.</p>
-                  </div>
-               </div>
-               <div class="card">
-                  <img class="card-img-top three-image" src="assets/image/programming.jpg" alt="image">
-                  <!--image downloaded: https://unsplash.com/photos/OqtafYT5kTw-->
-                  <div class="card-body">
-                     <h5 class="card-title">Back End</h5>
-                     <p class="card-text">Responsible for web applications and APIs. Integrating web services with front-end environment. Create your own functionality that suits you the most.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </body>
-</html>
+.nav-text {
+    padding: 20px;
+    color: #6c757d;
+}
+
+.nav nav-pills .row .show{
+   color: #f8f9fa;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #f8f9fa;
+    background-color: #118ab2;
+}
+.dropdown-menu.show {
+    display: block;
+     background-color: #f8f9fa;
+}
+
+a.navi-link.navi-text{
+    color: #118ab2;
+}
+
+a:hover {
+    color: #118ab2;
+}
+a.dropdown-item.nav-text{
+    color: #118ab2;
+}
+
+.about-header{
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-left: 40px;
+    text-align: left;
+    border-bottom: #6c757d solid 1px;
+}
+
+.about-text{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 40px;
+    max-width: 80%;
+    text-align: left;
+}
+
+.my-img {
+    margin: 100px 20px 20px 0;
+    max-width: 85%;    
+}
+
+
+.career-header{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: #6c757d solid 1px;
+}
+
+
+.job-position {
+    margin-top: 30px;
+}
+
+.job-text {
+    color: #118ab2;
+    text-align: left;
+
+}
+
+.date {
+    font-size: 14px;
+}
+
+.my-img-career {
+    margin: 130px 20px 20px 40px;
+    max-width: 85%;    
+}
+
+
+.skill-header {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: #6c757d solid 1px;
+}
+
+.skill-section {
+    margin: 40px;
+}
+.three-image {
+    width: 320px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 1%;
+}
+
+.card{
+    border: 0;
+}
+
+.card-title{
+    color: #118ab2;
+
+}
+.card-section {
+    height: 500px;
+}
+
+
+@media(max-width: 768px) {
+    .navbar-expand-md{       
+    }
+    
+    .my-img {
+        display: block;
+        margin: 20px auto 20px auto;
+        width: 50%;
+    }
+    
+    .about-header .career-header{
+        margin-top: 50px;
+    }
+
+    .hero-text{
+        font-size: 30px;
+    }
+    
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 981px) {
+    .career-header{
+        margin-top: 10px;
+    }
+    
+}
+ 
+@media(max-width: 828px) {
+    .nav-text{
+        font-size: 80%;
+    }
+}
+ 
 
