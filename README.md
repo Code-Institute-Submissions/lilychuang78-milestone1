@@ -6,17 +6,17 @@ This project is to build a personal protfolio website for potential recruiters.
 The website includes a navigation of home page, work experiences, skills, contact form, project (links), and download (cv link).
 
 Development Tools:
-Github
-Gitpod
-Balsamiq Wireframes
-HTML5
-CSS3
-Bootstrap
-Bootsnip
-Google Chrome developer tools
-Freeformater.com
-Coolers
-Unsplash
+Github<\r>
+Gitpod<\r>
+Balsamiq Wireframes<\r>
+HTML5<\r>
+CSS3<\r>
+Bootstrap<\r>
+Bootsnip<\r>
+Google Chrome developer tools<\r>
+Freeformater.com<\r>
+Coolors<\r>
+Unsplash<\r>
 
 Future Functionality:
 At the moment, contact form is not used as it is not connected to the backend dataset.
