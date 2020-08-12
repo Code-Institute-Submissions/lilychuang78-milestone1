@@ -3,7 +3,7 @@ https://github.com/lilychuang78/milestone1
 
 The Aim:
 This project is to build a personal protfolio website for potential recruiters.
-The website includes a navigation of home page, work experiences, skills, contact form, project (links), and download (cv).
+The website includes a navigation of home page, work experiences, skills, contact form, project (links), and download (cv link).
 
 Development Tools:
 Github
@@ -12,7 +12,11 @@ Balsamiq Wireframes
 HTML5
 CSS3
 Bootstrap
+Bootsnip
 Google Chrome developer tools
+Freeformater.com
+Coolers
+Unsplash
 
 Future Functionality:
 At the moment, contact form is not used as it is not connected to the backend dataset.
@@ -36,8 +40,6 @@ User Design Experience:
 	does it offer what users want? content of web-design and programming itself, with future portfolios and contact information
 
 >Structure Plane
-	The CV website will be in the same page, which contains a menu of 'Home', 'Career' (including skills), 'Education', 'Download', 'Portfolio' and 'Contact'.
-	By clicking 'Home', 'Career', 'Education' and 'Contact' in the navigation bar, the webpage will scroll down to the correspodent sections.
-	'Download' and 'Portfolio' in navigation bar will be open a bank window.
-	'Contact' at the footer includes email address and links to the social media.
+	The homepage leads to 'Career', 'Skills', 'Education', and 'Contact' pages and 'Download' and 'Portfolio' opens a bank window.
+	The navigation bar is always presented on the top of the screen so the users is able to navigate to other webpages.
 	(Future development: contact form connecting to backend)
