@@ -26,7 +26,7 @@
 
 .nav-text {
     padding: 20px;
-    color: darkslategray;
+    color: #6c757d;
 }
 
 .nav nav-pills .row .show{
@@ -34,7 +34,7 @@
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
+    color: #f8f9fa;
     background-color: #118ab2;
 }
 .dropdown-menu.show {
@@ -46,37 +46,40 @@ a.navi-link.navi-text{
     color: #118ab2;
 }
 
+a:hover {
+    color: #118ab2;
+}
 a.dropdown-item.nav-text{
     color: #118ab2;
 }
 
-.about-title{
+.about-header{
     margin-top: 50px;
+    margin-left: 40px;
     padding-left: 40px;
     text-align: left;
+    border-bottom: #6c757d solid 1px;
 }
 
 .about-text{
     margin-top: 20px;
+    margin-left: 40px;
     padding-left: 40px;
-    max-width: 90%;
+    max-width: 80%;
     text-align: left;
 }
 
-div.col-md-8{
-    margin-bottom: 50px;
-}
 .my-img {
-    margin: 100px 20px 30px 0;
+    margin: 100px 20px 20px 0;
     max-width: 85%;    
 }
 
 
-.career-title{
+.career-header{
     padding-left: 40px;
     padding-bottom: 10px;
     text-align: left;
-    border-bottom: darkslategray solid 1px;
+    border-bottom: #6c757d solid 1px;
 }
 
 
@@ -84,7 +87,7 @@ div.col-md-8{
     margin-top: 30px;
 }
 
-.job-text{
+.job-text {
     color: #118ab2;
     text-align: left;
 
@@ -98,3 +101,27 @@ div.col-md-8{
     margin: 130px 20px 20px 40px;
     max-width: 85%;    
 }
+
+
+.skill-header {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: #6c757d solid 1px;
+}
+
+.skill-section {
+    margin: 40px;
+}
+.three-image {
+    min-height: 60%;
+    min-width: 60%;
+}
+
+.card-section {
+    height: 500px;
+}
+
