@@ -119,9 +119,53 @@ a.dropdown-item.nav-text{
 .three-image {
     min-height: 60%;
     min-width: 60%;
+    
+}
+
+.card{
+    border: 0;
 }
 
 .card-section {
     height: 500px;
 }
+
+
+
+@media(max-width: 768px) {
+    .navbar-expand-md{       
+    }
+    
+    .my-img {
+        display: block;
+        margin: 20px auto 20px auto;
+        width: 50%;
+    }
+    
+    .about-header .career-header{
+        margin-top: 50px;
+    }
+
+    .hero-text{
+        font-size: 30px;
+    }
+    
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 981px) {
+    .career-header{
+        margin-top: 10px;
+    }
+    
+}
+ 
+@media(max-width: 828px) {
+    .nav-text{
+        font-size: 80%;
+    }
+}
+ 
 
