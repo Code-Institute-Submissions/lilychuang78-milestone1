@@ -191,6 +191,24 @@ ul.timeline > li:before {
     margin-top: 30px;    
 }
 
+.contact-header {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #6c757d;
+    border-bottom: #6c757d solid 1px;
+}
+
+form.col-md-6.offset-md-3{
+    margin: auto;
+}
+
+label{
+    color: #118ab2;
+}
+
 @media(max-width: 1024px) {
     .navbar-expand-md{       
     }
