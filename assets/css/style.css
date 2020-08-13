@@ -122,7 +122,6 @@ a.dropdown-item.nav-text{
     width: 320px;
     height: 300px;
     object-fit: cover;
-    margin: auto;
     border-radius: 1%;
 }
 
@@ -268,3 +267,9 @@ label{
     }
 }
  
+  @media only screen and (min-width: 1024px) and (max-width: 1024px){ 
+     .hero-text{
+        top: 20%;
+      }
+}
+
