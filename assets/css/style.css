@@ -21,9 +21,67 @@
   top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #f8f9fa;
+  color: #f8f9fa!important;
 }
 
+/*typing effect reference: https://usefulangle.com/post/85/css-typewriter-animation#:~:text=A%20typewriter%20effect%20can%20be,out%20in%20a%20single%20step).*/
+.typewriter {
+	display: inline-block;
+    bottom: 20%;
+    right: 5%;
+    position: absolute;
+    max-height: 40px;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 300;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color: #f8f9fa!important;
+}
+/**/
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #f8f9fa!important; 
+    }
+}
+/**/
 
 .nav-text {
     padding: 20px;
@@ -31,16 +89,16 @@
 }
 
 .nav nav-pills .row .show{
-   color: #f8f9fa;
+   color: #f8f9fa!important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #f8f9fa;
+    color: #f8f9fa!important;
     background-color: #118ab2;
 }
 .dropdown-menu.show {
     display: block;
-     background-color: #f8f9fa;
+     background-color: #f8f9fa!important;
 }
 
 a.navi-link.navi-text{
@@ -65,15 +123,18 @@ a.dropdown-item.nav-text{
 }
 
 .about-text{
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 24px;
+    margin-left: 80px;
     padding-left: 40px;
     max-width: 80%;
     text-align: left;
+    word-spacing: 3px;
+    max-width: 60ch;
+    line-height: 140%;
 }
 
 .my-img {
-    margin: 100px 20px 20px 0;
+    margin: 120px 0 20px 0;
     max-width: 85%;    
 }
 
@@ -117,10 +178,12 @@ a.dropdown-item.nav-text{
 
 .skill-section {
     margin: 40px;
+    margin-bottom: 0;
 }
 .three-image {
-    width: 320px;
+    width: 284.67px;
     height: 300px;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 1%;
 }
@@ -131,12 +194,14 @@ a.dropdown-item.nav-text{
 
 .card-title{
     color: #118ab2;
-
 }
 .card-section {
     height: 500px;
+    left: 3%;
 }
-
+.card-text{
+    max-width: 260px;
+}
 
 .education-header {
     margin-top: 50px;
@@ -208,13 +273,30 @@ label{
     color: #118ab2;
 }
 
+.btn-section{
+    color: #118ab2;
+    background-color:#f8f9fa!important;
+}
+
+.footer-section{
+    margin: 0;
+    background-color: #f8f9fa!important;
+}
+
+.footer-text{
+    text-align: center;
+}
+.footer-text span{
+    color: #6c757d;
+}
+
 @media(max-width: 1024px) {
     .navbar-expand-md{       
     }
     
     .my-img {
         display: block;
-        margin: 20px auto 20px auto;
+        margin: 140px auto 20px auto;
         width: 50%;
     }
     
@@ -237,6 +319,14 @@ label{
     .card{
         margin-bottom: 20px;
     }
+    .typewriter {
+        top: 32%;
+        right: 5%;
+    }
+
+    .typewriter-text {
+        font-size: 25px;
+    }
 }
 
 @media(min-width: 981px) {
@@ -250,26 +340,44 @@ label{
     .nav-text{
         font-size: 80%;
     }
-}
-
-
-@media(max-width: 1024px) {
-    .hero-text{
-        top: 33.33%;
-        font-size: 30px;
-        font-weight: 200;
+    .typewriter {
+        top: 40%;
         background-color: rgba(0, 0, 0, 0.4);
     }
-    .my-img {
-        margin: 150px 20px 20px 0;
-        width: auto;
-        height: auto;
+}
+
+@media(max-width: 414px) {
+    .typewriter {
+        top: 52%;
+        background-color: rgba(0, 0, 0, 0.4);
     }
 }
+
+
+}@media(max-width: 320px) {
+    .typewriter {
+        top: 75%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+
  
-  @media only screen and (min-width: 1024px) and (max-width: 1024px){ 
+@media only screen and (min-width: 1024px) and (max-width: 1024px){ 
      .hero-text{
         top: 20%;
       }
+}
+  @media only screen and (min-width: 768px) and (max-width: 768px){ 
+     .three-image{
+        max-width: 199.33px;
+        max-height: 208px;
+      }
+}
+  @media only screen and (min-width: 768px) and (max-width: 375px){ 
+         .typewriter {
+        top: 65%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 }
 
