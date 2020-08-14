@@ -30,7 +30,9 @@ Project should be linked to the protfolios (further milestone projects) in the f
 	1. what they say they need:<br /> a resume website, social media profile<br />
 	2. what they actually need:<br /> a responsive website with different devices, links to social media profile<br />
 	3. what they don't know they need:<br /> links to the future protfolio/projects, a CV that can be downloaded<br /><br />
->**Skeleton Plane:**<br /><br />
+>**Skeleton Plane:**<br />
+    <img src="wireframe.png" alt="wireframes"/>
+    <br />
 >**Strategy Plan:**<br />
 	1. what does the user expect?<br />information of working experience, education, and importantly skills<br />
 	2. who are the users?<br />potential recruiters or clients<br />
