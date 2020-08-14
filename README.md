@@ -8,16 +8,17 @@ This project is to build a personal protfolio website for potential recruiters.
 The website includes a navigation of home page, work experiences, skills, contact form, project (links), and download (cv link).<br />
 <br />
 **Development Tools:**<br />
-Github<br />
-Gitpod<br />
 Balsamiq Wireframes<br />
-HTML5<br />
-CSS3<br />
+Bracket</br/>
 Bootstrap<br />
 Bootsnip<br />
-Google Chrome developer tools<br />
-Freeformater.com<br />
 Coolors<br />
+CSS3<br />
+Freeformater.com<br />
+Github<br />
+Gitpod<br />
+Google Chrome developer tools<br />
+HTML5<br />
 Unsplash<br />
 <br />
 **Future Functionality:**<br />
@@ -30,9 +31,8 @@ Project should be linked to the protfolios (further milestone projects) in the f
 	1. what they say they need:<br /> a resume website, social media profile<br />
 	2. what they actually need:<br /> a responsive website with different devices, links to social media profile<br />
 	3. what they don't know they need:<br /> links to the future protfolio/projects, a CV that can be downloaded<br /><br />
->**Skeleton Plane:**<br />
-    <img src="wireframe.png" alt="wireframes"/>
-    <br />
+>**Skeleton Plane:**
+    <img src="wireframe.png" alt="wireframes"/><br />
 >**Strategy Plan:**<br />
 	1. what does the user expect?<br />information of working experience, education, and importantly skills<br />
 	2. who are the users?<br />potential recruiters or clients<br />
