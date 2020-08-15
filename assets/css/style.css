@@ -1,383 +1,456 @@
-*{
-    font-family: 'Lato', sans-serif;
+* {
+	font-family: 'Lato', sans-serif;
 }
 
 .hero-image {
-    background-image: url("/assets/image/hero.jpg");
-    background-color: #cccccc;
-    width: 1500px;
-    height: 508px;
-    object-fit: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    justify-content: center;
+	background-image: url("/assets/image/hero.jpg");
+	background-color: #cccccc;
+	width: 1500px;
+	height: 508px;
+	object-fit: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	justify-content: center;
 }
 
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #f8f9fa!important;
+	text-align: center;
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #f8f9fa!important;
 }
 
+
 /*typing effect reference: https://usefulangle.com/post/85/css-typewriter-animation#:~:text=A%20typewriter%20effect%20can%20be,out%20in%20a%20single%20step).*/
+
 .typewriter {
 	display: inline-block;
-    bottom: 20%;
-    right: 5%;
-    position: absolute;
-    max-height: 40px;
+	right: 5%;
+	position: absolute;
+	max-height: 40px;
 }
 
 .typewriter-text {
-    display: inline-block;
-  	overflow: hidden;
-  	letter-spacing: 2px;
- 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    font-size: 30px;
-    font-weight: 300;
-    border-right: 4px solid orange;
-    box-sizing: border-box;
-    color: #f8f9fa!important;
+	display: inline-block;
+	overflow: hidden;
+	letter-spacing: 2px;
+	animation: typing 4s steps(30, end), blink .75s step-end infinite;
+	white-space: nowrap;
+	font-size: 30px;
+	font-weight: 300;
+	border-right: 4px solid orange;
+	box-sizing: border-box;
+	color: #f8f9fa!important;
 }
+
+
 /**/
 
 @keyframes typing {
-    from { 
-        width: 0% 
-    }
-    to { 
-        width: 100% 
-    }
+	from {
+		width: 0%
+	}
+	to {
+		width: 100%
+	}
 }
 
 @keyframes blink {
-    from, to { 
-        border-color: transparent 
-    }
-    50% { 
-        border-color: orange; 
-    }
+	from,
+	to {
+		border-color: transparent
+	}
+	50% {
+		border-color: orange;
+	}
 }
+
 @keyframes typing {
-    from { 
-        width: 0% 
-    }
-    to { 
-        width: 100% 
-    }
+	from {
+		width: 0%
+	}
+	to {
+		width: 100%
+	}
 }
 
 @keyframes blink {
-    from, to { 
-        border-color: transparent 
-    }
-    50% { 
-        border-color: #f8f9fa!important; 
-    }
+	from,
+	to {
+		border-color: transparent
+	}
+	50% {
+		border-color: #f8f9fa!important;
+	}
 }
+
+
 /**/
 
 .nav-text {
-    padding: 20px;
-    color: #6c757d;
+	padding: 20px;
+	color: #6c757d;
 }
 
-.nav nav-pills .row .show{
-   color: #f8f9fa!important;
+.nav nav-pills .row .show {
+	color: #f8f9fa!important;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #f8f9fa!important;
-    background-color: #118ab2;
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #f8f9fa!important;
+	background-color: #118ab2;
 }
+
 .dropdown-menu.show {
-    display: block;
-     background-color: #f8f9fa!important;
+	display: block;
+	background-color: #f8f9fa!important;
 }
 
-a.navi-link.navi-text{
-    color: #118ab2;
+a.navi-link.navi-text {
+	color: #118ab2;
 }
 
 a:hover {
-    color: #118ab2;
-}
-a.dropdown-item.nav-text{
-    color: #118ab2;
+	color: #118ab2;
 }
 
-.about-header{
-    margin-top: 50px;
-    margin-left: 40px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    text-align: left;
-    color: #6c757d;
-    border-bottom: #6c757d solid 1px;
+a.dropdown-item.nav-text {
+	color: #118ab2;
 }
 
-.about-text{
-    margin-top: 24px;
-    margin-left: 80px;
-    padding-left: 40px;
-    max-width: 80%;
-    text-align: left;
-    word-spacing: 3px;
-    max-width: 60ch;
-    line-height: 140%;
+.about-header {
+	margin-top: 50px;
+	margin-left: 40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: #6c757d;
+	border-bottom: #6c757d solid 1px;
+}
+
+.about-text {
+	margin-top: 24px;
+	margin-left: 80px;
+	padding-left: 40px;
+	max-width: 80%;
+	text-align: left;
+	word-spacing: 3px;
+	max-width: 60ch;
+	line-height: 140%;
 }
 
 .my-img {
-    margin: 120px 0 20px 0;
-    max-width: 85%;    
+	margin: 120px 0 20px 0;
+	max-width: 85%;
 }
 
-.career-header{
-    padding-left: 40px;
-    padding-bottom: 10px;
-    text-align: left;
-    color: #6c757d;
-    border-bottom: #6c757d solid 1px;
+.career-header {
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: #6c757d;
+	border-bottom: #6c757d solid 1px;
 }
 
 .job-position {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .job-text {
-    color: #118ab2;
-    text-align: left;
+	color: #118ab2;
+	text-align: left;
 }
 
 .date {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 .my-img-career {
-    margin: 130px 20px 20px 40px;
-    max-width: 85%;    
+	margin: 130px 20px 20px 40px;
+	max-width: 85%;
 }
 
-
 .skill-header {
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    text-align: left;
-    color: #6c757d;
-    border-bottom: #6c757d solid 1px;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: #6c757d;
+	border-bottom: #6c757d solid 1px;
 }
 
 .skill-section {
-    margin: 40px;
-    margin-bottom: 0;
+	margin: 40px;
+	margin-bottom: 0;
 }
+
 .three-image {
-    width: 284.67px;
-    height: 300px;
-    max-width: 100%;
-    object-fit: cover;
-    border-radius: 1%;
+	width: 300px;
+	height: 300px;
+	max-width: 100%;
+	object-fit: cover;
+	border-radius: 1%;
 }
 
-.card{
-    border: 0;
+.card {
+	border: 0;
 }
 
-.card-title{
-    color: #118ab2;
+.card-title {
+	color: #118ab2;
 }
+
 .card-section {
-    height: 500px;
-    left: 3%;
+	height: 500px;
+	left: 3%;
 }
-.card-text{
-    max-width: 260px;
+
+.card-text {
+	max-width: 240px;
 }
 
 .education-header {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    color: #6c757d;
-    border-bottom: #6c757d solid 1px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: #6c757d;
+	border-bottom: #6c757d solid 1px;
 }
-    
-.education-title{
-    color: #118ab2;
+
+.education-title {
+	color: #118ab2;
 }
+
 
 /*timeline*/
+
+
 /*reference:Bootstrap 4.1.1 Snippet by mylastof https://bootsnipp.com/snippets/xrKXW*/
+
 ul.timeline {
-    list-style-type: none;
-    position: relative;
+	list-style-type: none;
+	position: relative;
 }
+
 ul.timeline:before {
-    content: ' ';
-    background: rgba(108, 117, 125, 0.75);
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+	content: ' ';
+	background: rgba(108, 117, 125, 0.75);
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 400;
 }
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
+
+ul.timeline>li {
+	margin: 20px 0;
+	padding-left: 20px;
 }
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #118ab2;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+
+ul.timeline>li:before {
+	content: ' ';
+	background: white;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid #118ab2;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 400;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
 
-.education-line{
-    margin-top: 30px;    
+.education-line {
+	margin-top: 30px;
 }
 
 .contact-header {
-    margin-top: 60px;
-    margin-bottom: 40px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    color: #6c757d;
-    border-bottom: #6c757d solid 1px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	color: #6c757d;
+	border-bottom: #6c757d solid 1px;
 }
 
-form.col-md-6.offset-md-3{
-    margin: auto;
+form.col-md-6.offset-md-3 {
+	margin: auto;
 }
 
-label{
-    color: #118ab2;
+label {
+	color: #118ab2;
 }
 
-.btn-section{
-    color: #118ab2;
-    background-color:#f8f9fa!important;
+.btn-section {
+	color: #118ab2;
+	background-color: #f8f9fa!important;
 }
 
-.footer-section{
-    margin: 0;
-    background-color: #f8f9fa!important;
+.footer-section {
+	margin: 0;
+	background-color: #f8f9fa!important;
 }
 
-.footer-text{
-    text-align: center;
+.footer-text {
+	text-align: center;
 }
-.footer-text span{
-    color: #6c757d;
+
+.footer-text span {
+	color: #6c757d;
 }
+
 
 @media(max-width: 1024px) {
-    .navbar-expand-md{       
-    }
-    
-    .my-img {
-        display: block;
-        margin: 140px auto 20px auto;
-        width: 50%;
-    }
-    
-    .my-img-career {
-        margin: 40px auto 20px 20px;
-
-    }
-    
-    .about-header .career-header{
-        margin-top: 50px;
-    }
-
-    .hero-text{
-        top: 30%;
-        font-size: 30px;
-        font-weight: 200;
+	.navbar-expand-md {}
+	.my-img {
+		display: block;
+		margin: 100px auto 20px auto;
+		width: 80%;
+	}
+	.my-img-career {
+		margin: 40px auto 20px 20px;
+	}
+	.about-header .career-header {
+		margin-top: 50px;
+	}
+	.hero-text {
+		top: 20%;
+		font-size: 30px;
+		font-weight: 200;
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+	.card {
+		margin-bottom: 20px;
+	}
+	.typewriter {
+		top: 30%;
+		right: 15%;
         background-color: rgba(0, 0, 0, 0.4);
-    }
-    
-    .card{
-        margin-bottom: 20px;
-    }
-    .typewriter {
-        top: 32%;
-        right: 5%;
-    }
-
-    .typewriter-text {
-        font-size: 25px;
-    }
+	}
+	.typewriter-text {
+		font-size: 25px;
+	}
 }
 
 @media(min-width: 981px) {
-    .career-header{
-        margin-top: 10px;
-    }   
+	.career-header {
+		margin-top: 10px;
+	}
 }
 
- 
 @media(max-width: 828px) {
-    .nav-text{
-        font-size: 80%;
+	.nav-text {
+		font-size: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	.three-image {
+		max-width: 199.33px;
+		max-height: 155px;
+	}
+}
+
+@media(max-width: 450px) {
+	.my-img {
+		display: block;
+		margin: 20px auto 20px auto;
+		width: 50%;
     }
-    .typewriter {
+    .about-text{
+        margin-left: 20px;
+    }
+    .card-body{
+        max-width: 220px;
+    }
+    .three-image{
+        max-height: 155px;
+        margin-top: 10px;
+    }
+    .skill-section{
+        max-width: 300px;
+    }
+    .card-section{
+        max-height: 400px;
+    }
+}
+
+@media(max-width: 280px) {
+    .card-section{
+        max-height: 500px;
+    }
+}
+
+
+@media only screen and (min-width: 450px) and (max-width: 450px) {
+    .hero-text{
         top: 40%;
-        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .typewriter{
+        top: 70%;
     }
 }
-
-@media(max-width: 414px) {
-    .typewriter {
-        top: 52%;
-        background-color: rgba(0, 0, 0, 0.4);
+@media only screen and (min-width: 414px) and (max-width: 414px) {
+    .hero-text{
+        top: 40%;
+    }
+    .typewriter{
+        top: 60%;
     }
 }
-
-
-}@media(max-width: 320px) {
-    .typewriter {
-        top: 75%;
-        background-color: rgba(0, 0, 0, 0.4);
+@media only screen and (min-width: 411px) and (max-width: 411px) {
+    .hero-text{
+        top: 30%;
+    }
+    .typewriter{
+        top: 50%;
     }
 }
-
-
- 
-@media only screen and (min-width: 1024px) and (max-width: 1024px){ 
-     .hero-text{
-        top: 20%;
-      }
-}
-  @media only screen and (min-width: 768px) and (max-width: 768px){ 
-     .three-image{
-        max-width: 199.33px;
-        max-height: 208px;
-      }
-}
-  @media only screen and (min-width: 768px) and (max-width: 375px){ 
-         .typewriter {
+@media only screen and (min-width: 375px) and (max-width: 375px) {
+    .hero-text{
+        top: 45%;
+    }
+    .typewriter{
         top: 65%;
-        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+@media only screen and (min-width: 375px) and (max-height: 812px) {
+    .hero-text{
+        top: 30%;
+    }
+    .typewriter{
+        top: 50%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-height: 667px) {
+    .hero-text{
+        top: 40%;
+    }
+    .typewriter{
+        top: 60%;
     }
 }
 
+
+@media only screen and (min-width: 280px) and (max-height: 653px) {
+    .hero-text{
+        top: 40%;
+    }
+    .typewriter{
+        top: 55%;
+    }
+}
