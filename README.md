@@ -2,7 +2,8 @@
 
 https://github.com/lilychuang78/milestone1 <br />
 This website is built to be a resume for potential clients and recruiters.
-The easy to understand navigation menu guide the users to different pages including including "About", "Career", "Skills", "Education", "Portfolio" and "Contact".
+The easy to understand navigation menu guide the users to different pages including including "Home", "Career", "Skills", "Education", "Portfolio" and "Contact".
+On the homepage, there is a brief introduction about myself.
 The website is responsive on desktop and smaller devices such as pad and smartphone.<br />
 At the moment, the form in "Contact" page is not functional as it is not connected to the backend dataset.
 "Portfolio" in the navigation bar contains a dropdown menu which should later on be linked to the future projects.
