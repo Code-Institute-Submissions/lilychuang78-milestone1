@@ -1,6 +1,6 @@
 # Resume Website
 
-https://github.com/lilychuang78/milestone1 <br />
+https://lilychuang78.github.io/milestone1/. <br />
 This website is built to be a resume for potential clients and recruiters.
 The easy to understand navigation menu guide the users to different pages including including "Home", "Career", "Skills", "Education", "Portfolio" and "Contact".
 On the homepage, there is a brief introduction about myself.
@@ -47,7 +47,9 @@ Both desktop responsive view and smartphone view including Moto G4, Galaxy S5, P
 The code was reformatted and checked using Freeformater.com's formatter and validator.
 ## Deployment
 Website was coded using Gitpod and uploaded to Github using git command.
-The repository can be found here: https://github.com/lilychuang78/milestone1.
+Commands including "git add ." to add the files, "git commit -m 'message'" to stage, and "git push" to deploy on Github. In the settings option, I selected the master branch to publish online.
+
+The repository can be found here: https://lilychuang78.github.io/milestone1/.
 ## Credits
 I want to specially thank my mentor Spencer Barriball for giving me ideas and support and the tutors online who helped me constantly.
 
